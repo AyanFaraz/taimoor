@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .header {
+    height: 773px;
+    background: url('logo.jpg') no-repeat center;
+    color: #fff;
+  }
+  
+  .top {
+    padding: 40px 60px 0 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;  
+  }
+  
+  .main {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+  }
+  
+  .welcome {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .btnsdiv {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    border: 2px solid white;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    transition: color 1s;
+  }
+  
+  .btn:hover {
+    background: white;
+    color: black;
+  }
+  
+  .logos {
+    position: absolute;
+    top: 280px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+    transition: 1s;
+  }
+  
+  .logos a:hover {
+    color: #7fff00;
+  }
+  
